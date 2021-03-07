@@ -25,7 +25,7 @@ def ScoresWindow():
 
     label = Label(text="G A M E S", background="grey", font=myFont)
     label.pack()
-    But3 = Button(text='B A C K', bg='grey', fg='white', relief='groove', border=2, font=myFont2)
+    But3 = Button(text='B A C K', bg='grey', fg='white', relief='groove', border=0, font=myFont2)
     But3.place(x=00, y=620)
     But3.bind('<Button-1>', OnPressed3)
     But3.bind('<Enter>', OnHover3)
